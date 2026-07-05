@@ -39,6 +39,11 @@ def jalankan_chatbot():
         elif "kamu suka apa" in pesan_pengguna or "hobi kamu apa" in pesan_pengguna:
             print("Chatbot: Aku suka belajar hal baru dan membantu orang dengan jawaban yang aku tahu!")
 
+        elif "prediksi piala dunia" in pesan_pengguna or "siapa yang akan menang piala dunia" in pesan_pengguna:
+            print("Chatbot: Wah, itu pertanyaan yang sulit! Tapi aku rasa tim yang paling solid dan berpengalaman akan punya peluang besar. Mungkin Portugal kalau menurutku 🇵🇹. Tapi ini cuma tebakan ya! 😅")
+
+        elif "top skor" in pesan_pengguna or "pemain terbaik" in pesan_pengguna:
+            print("Chatbot: Untuk top skor, biasanya pemain yang konsisten mencetak gol akan menjadi kandidat. Tapi kalau dilihat dari performa musim ini, mungkin Ousmane Dembélé yang akan menjadi kandidatnya. 🌟🇫🇷")
         elif "terima kasih" in pesan_pengguna or "makasih" in pesan_pengguna:
             print("Chatbot: Sama-sama! Senang bisa mengobrol denganmu.")
             

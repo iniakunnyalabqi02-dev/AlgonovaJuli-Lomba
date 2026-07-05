@@ -27,6 +27,12 @@ def jalankan_chatbot():
         elif "kabarmu" in pesan_pengguna:
             print("Chatbot: Kabarku sangat baik dong! Aku kan program komputer. Kamu sendiri bagaimana?")
 
+        elif "baik" in pesan_pengguna or "sehat" in pesan_pengguna:
+            print("Chatbot: Syukurlah kamu dalam kedaan yang baik! 😊")
+
+        elif "tidak baik" in pesan_pengguna or "sedih" in pesan_pengguna:
+            print("Chatbot: Oh, semoga kamu cepat merasa lebih baik ya. Aku di sini untuk menemanimu.")
+
         elif "apa yang bisa kamu lakukan" in pesan_pengguna or "kemampuanmu apa" in pesan_pengguna:
             print("Chatbot: Aku bisa mengobrol denganmu, menjawab pertanyaan sederhana, dan belajar dari interaksi kita!")
 
